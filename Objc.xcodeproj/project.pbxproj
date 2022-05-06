@@ -9,21 +9,38 @@
 /* Begin PBXBuildFile section */
 		B8626AD32822DAD70092B41F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8626AD22822DAD70092B41F /* AppDelegate.swift */; };
 		B8626AD52822DAD70092B41F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8626AD42822DAD70092B41F /* SceneDelegate.swift */; };
-		B8626AD72822DAD70092B41F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8626AD62822DAD70092B41F /* ViewController.swift */; };
+		B8626AD72822DAD70092B41F /* SegueSwizzlerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8626AD62822DAD70092B41F /* SegueSwizzlerViewController.swift */; };
 		B8626ADA2822DAD70092B41F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8626AD82822DAD70092B41F /* Main.storyboard */; };
 		B8626ADC2822DAD80092B41F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8626ADB2822DAD80092B41F /* Assets.xcassets */; };
 		B8626ADF2822DAD80092B41F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8626ADD2822DAD80092B41F /* LaunchScreen.storyboard */; };
+		B8626AE72822DAEB0092B41F /* CheckValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8626AE62822DAEB0092B41F /* CheckValue.swift */; };
+		B8626AEB2822DB3B0092B41F /* NamesLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8626AEA2822DB3B0092B41F /* NamesLabelViewController.m */; };
+		B8626AEE2822DD220092B41F /* PowerOfTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8626AED2822DD220092B41F /* PowerOfTwoViewController.m */; };
+		B8626AF02822E3030092B41F /* SegueSwizzler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8626AEF2822E3030092B41F /* SegueSwizzler.swift */; };
+		B8626AF22822E7370092B41F /* UIView extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8626AF12822E7370092B41F /* UIView extension.swift */; };
+		B8626AF42822E7C50092B41F /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8626AF32822E7C50092B41F /* NameViewController.swift */; };
+		B8626AF62822E9E60092B41F /* ImagePicker Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8626AF52822E9E60092B41F /* ImagePicker Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B8626ACF2822DAD70092B41F /* Objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Objc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8626AD22822DAD70092B41F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8626AD42822DAD70092B41F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B8626AD62822DAD70092B41F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B8626AD62822DAD70092B41F /* SegueSwizzlerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueSwizzlerViewController.swift; sourceTree = "<group>"; };
 		B8626AD92822DAD70092B41F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B8626ADB2822DAD80092B41F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8626ADE2822DAD80092B41F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8626AE02822DAD80092B41F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8626AE62822DAEB0092B41F /* CheckValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckValue.swift; sourceTree = "<group>"; };
+		B8626AE82822DB3A0092B41F /* Objc-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Objc-Bridging-Header.h"; sourceTree = "<group>"; };
+		B8626AE92822DB3B0092B41F /* NamesLabelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NamesLabelViewController.h; sourceTree = "<group>"; };
+		B8626AEA2822DB3B0092B41F /* NamesLabelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NamesLabelViewController.m; sourceTree = "<group>"; };
+		B8626AEC2822DD220092B41F /* PowerOfTwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PowerOfTwoViewController.h; sourceTree = "<group>"; };
+		B8626AED2822DD220092B41F /* PowerOfTwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PowerOfTwoViewController.m; sourceTree = "<group>"; };
+		B8626AEF2822E3030092B41F /* SegueSwizzler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueSwizzler.swift; sourceTree = "<group>"; };
+		B8626AF12822E7370092B41F /* UIView extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView extension.swift"; sourceTree = "<group>"; };
+		B8626AF32822E7C50092B41F /* NameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
+		B8626AF52822E9E60092B41F /* ImagePicker Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImagePicker Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +75,21 @@
 			children = (
 				B8626AD22822DAD70092B41F /* AppDelegate.swift */,
 				B8626AD42822DAD70092B41F /* SceneDelegate.swift */,
-				B8626AD62822DAD70092B41F /* ViewController.swift */,
+				B8626AD62822DAD70092B41F /* SegueSwizzlerViewController.swift */,
 				B8626AD82822DAD70092B41F /* Main.storyboard */,
 				B8626ADB2822DAD80092B41F /* Assets.xcassets */,
 				B8626ADD2822DAD80092B41F /* LaunchScreen.storyboard */,
 				B8626AE02822DAD80092B41F /* Info.plist */,
+				B8626AE62822DAEB0092B41F /* CheckValue.swift */,
+				B8626AEF2822E3030092B41F /* SegueSwizzler.swift */,
+				B8626AF12822E7370092B41F /* UIView extension.swift */,
+				B8626AE92822DB3B0092B41F /* NamesLabelViewController.h */,
+				B8626AEA2822DB3B0092B41F /* NamesLabelViewController.m */,
+				B8626AEC2822DD220092B41F /* PowerOfTwoViewController.h */,
+				B8626AED2822DD220092B41F /* PowerOfTwoViewController.m */,
+				B8626AE82822DB3A0092B41F /* Objc-Bridging-Header.h */,
+				B8626AF32822E7C50092B41F /* NameViewController.swift */,
+				B8626AF52822E9E60092B41F /* ImagePicker Extension.swift */,
 			);
 			path = Objc;
 			sourceTree = "<group>";
@@ -99,6 +126,7 @@
 				TargetAttributes = {
 					B8626ACE2822DAD70092B41F = {
 						CreatedOnToolsVersion = 13.3.1;
+						LastSwiftMigration = 1330;
 					};
 				};
 			};
@@ -138,9 +166,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8626AD72822DAD70092B41F /* ViewController.swift in Sources */,
+				B8626AEE2822DD220092B41F /* PowerOfTwoViewController.m in Sources */,
+				B8626AD72822DAD70092B41F /* SegueSwizzlerViewController.swift in Sources */,
+				B8626AE72822DAEB0092B41F /* CheckValue.swift in Sources */,
+				B8626AEB2822DB3B0092B41F /* NamesLabelViewController.m in Sources */,
 				B8626AD32822DAD70092B41F /* AppDelegate.swift in Sources */,
+				B8626AF42822E7C50092B41F /* NameViewController.swift in Sources */,
+				B8626AF02822E3030092B41F /* SegueSwizzler.swift in Sources */,
+				B8626AF62822E9E60092B41F /* ImagePicker Extension.swift in Sources */,
 				B8626AD52822DAD70092B41F /* SceneDelegate.swift in Sources */,
+				B8626AF22822E7370092B41F /* UIView extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +320,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YCD8TAUA7N;
@@ -303,6 +339,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = shevshelev.Objc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Objc/Objc-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -313,6 +351,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YCD8TAUA7N;
@@ -331,6 +370,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = shevshelev.Objc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Objc/Objc-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
